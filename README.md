@@ -1,2 +1,5 @@
-# Vision-Kinect
-Repository of the different components of IEEE-NITK Envision-2024 Vision Kinect Project
+# Vision Kinect
+
+Tetris is a classic puzzle video game that was created by Alexey Pajitnov, a Russian Computer Scientist, in 1984. In Tetris, geometric shapes called Tetriminos fall from the top of a rectangular playfield. The player's objective is to manipulate these falling Tetriminos by rotating and moving them horizontally as they descend, with the goal of 'clearing' horizontal lines. When a line has no gaps, it disappears and the blocks above it cascade downwards, freeing up space for more tetrominos. The game ends when the stack of Tetrominos reaches the top of the playfield, making it impossible to place new pieces.
+
+Vision Tetris is a modern-day spin of this classic, by making the game hands-free! By taking inspiration from gaming console motion sensing like that of Xbox Kinect, we aim to enable players to play Tetris via the movement of their hands! We achieve this by leveraging modern computer vision object detection techniques, to detect different hand-gestures representing different in-game actions. We wrap this system with a web application, to make it easily usable for anyone.
