@@ -1,0 +1,26 @@
+.Tetris
+{
+    /*padding: 50px;*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Webcam, .Canvas
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 9;
+    width: 33vw;
+    height: 33vw;
+    margin: 2vw;
+    border: 30px solid rgb(32, 0, 64);
+}
+
+.Webcam
+{
+    background-color: rgb(32, 0, 64);
+}

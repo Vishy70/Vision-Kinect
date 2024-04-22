@@ -1,0 +1,15 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  text-align: center;
+  color: white;
+  background-color: #406;
+  height: 100vh;
+}
