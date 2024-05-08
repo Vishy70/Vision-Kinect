@@ -1,0 +1,14 @@
+
+__pycache__/
+
+converter_config.yaml
+darknet.labels
+
+#Ignore data folders: can download from repositories
+all_data/
+ann_train_val/
+dataset/
+img_train_val/
+
+TODO.md
+
