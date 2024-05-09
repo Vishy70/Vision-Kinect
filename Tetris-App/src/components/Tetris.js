@@ -17,6 +17,10 @@ import { useBoard } from '../hooks/useBoard';
 import { useTetrisStats } from '../hooks/useTetrisStats'
 import { usePlayer } from '../hooks/usePlayer'
 
+//Tensorflow
+//import * as tf from '@tensorflow/tfjs' 
+//import * as tfn from '@tensorflow/tfjs-node' 
+
 
 export function Tetris({rows, cols, setGameOver})
 {
@@ -26,6 +30,18 @@ export function Tetris({rows, cols, setGameOver})
 
     const webcamRef = useRef(null)
     const canvasRef = useRef(null)
+
+    const tf = require('@tensorflow/tfjs');
+    const tfnode = require('@tensorflow/tfjs-node');
+
+    // async function loadModel(){
+    //     const handler = tfnode.io.fileSystem('tfjs_model/model.json');
+    //     const model = await tf.loadLayersModel(handler);
+    //     console.log("Model loaded");
+    // }
+
+
+    //loadModel();
 
     //<CamControl /> needs to be implemented
     return (
