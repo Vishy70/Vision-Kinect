@@ -4,6 +4,8 @@ Tetris is a classic puzzle video game that was created by Alexey Pajitnov, a Rus
 
 Vision Tetris is a modern-day spin of this classic, by making the game hands-free! By taking inspiration from gaming console motion sensing like that of Xbox Kinect, we aim to enable players to play Tetris via the movement of their hands! We achieve this by leveraging modern computer vision object detection techniques, to detect different hand-gestures representing different in-game actions. We wrap this system with a web application, to make it easily usable for anyone.
 
+## Project Report:https://ieee.nitk.ac.in/virtual_expo/report/54
+
 ## Game Action-Binds
 
 You can use a normal keyboard to initially get used to the game. After that, we recommend you to give yourself the true challenge of playing hands - free! **Note**: It is recommended to keep the camera at least 3 feet away, for accurate detection and true hands-freeness!
@@ -29,3 +31,5 @@ You can use a normal keyboard to initially get used to the game. After that, we 
 - KeyQ: Quit game
 - KeyP: Pause game
 - Space: Slow-drop tetromino to 'ghost' position
+
+
